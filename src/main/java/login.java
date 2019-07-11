@@ -11,9 +11,9 @@ public class login extends HttpServlet {
         PrintWriter out = resp.getWriter();
         //form action is dologin & method is post
         String form = "<!DOCTYPE html> <html lang=\"en\"> <head> <meta charset=\"UTF-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"> <meta http-equiv=\"X-UA-Compatible\" content=\"ie=edge\"> <title>Login Page</title></head><body><form action=\"dologin\" method=\"POST\"> <label> Email <input type=\"email\" name=\"email\" id=\"email\" value=\"me@islam\"> </label> <label> Password <input type=\"password\" name=\"password\" id=\"password\" value=\"pass\"> </label> <input type=\"submit\" value=\"Login\"> </form> </body></html>";
-        LoginSession customSession = new LoginSession("",false);
+        //LoginSession customSession = new LoginSession(null,false);
         // those will not work because the request has been completed by the doGet before calling the doPost.
-        req.getSession().setAttribute("user",customSession);
+        req.getSession().setAttribute("user",null);
         out.println(form);
     }
 

@@ -7,10 +7,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9627f140-1689-492c-ae42-a9085231ebc5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Users.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/login_war_exploded/WEB-INF/classes/dologin.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/login_war_exploded/WEB-INF/classes/dologin.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/login_war_exploded/WEB-INF/classes/login.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/login_war_exploded/WEB-INF/classes/login.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Users.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Users.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/dologin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dologin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dologin.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dologin.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/login.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/login.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -235,8 +239,16 @@
       <workItem from="1562791166398" duration="681000" />
       <workItem from="1562792152028" duration="6186000" />
       <workItem from="1562842452632" duration="3678000" />
-      <workItem from="1562872374263" duration="2701000" />
+      <workItem from="1562872374263" duration="4835000" />
     </task>
+    <task id="LOCAL-00001" summary="added user class and users loader">
+      <created>1562879333015</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1562879333015</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -252,5 +264,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="added user class and users loader" />
+    <option name="LAST_COMMIT_MESSAGE" value="added user class and users loader" />
   </component>
 </project>
