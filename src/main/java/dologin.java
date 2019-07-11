@@ -10,9 +10,6 @@ import java.io.PrintWriter;
 
 public class dologin extends HttpServlet {
     Users users = new Users();
-    @Override
-    protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-    }
 
     // add a button to invalidate the session (i.e log out)
 
@@ -23,18 +20,21 @@ public class dologin extends HttpServlet {
         HttpSession session = req.getSession();
         String email = req.getParameter("email");
         String password = req.getParameter("password");
+        out.print("<html><head><title>Login</title></head><body><form method=\"POST\">");
+        out.print("<button type=\"submit\" action=\"logout\" value=\"Logout\">LogOut</button>");
+        out.print("</form></body></html>");
 //        if (session.getAttribute("user") == null) {
 //            out.print("session attribute (user) is null");
 //        }
         if (users.users.get(email)!=null){
-            out.print("User is correct"); // email entered exist in the map
+//            out.print("User is correct"); // email entered exist in the map
             if (users.users.get(email).getPassword().equals(password)){
-                out.print("User and Password are correct");
+//                out.print("User and Password are correct");
                 session.setAttribute("user", new LoginSession(req.getParameter("email"),true));
-                out.print("Login Successfully \n");
+//                out.print("Login Successfully \n");
                 String signedInUserEmail = ((LoginSession) session.getAttribute("user")).email;
                 if (session.getAttribute("user") != null) {
-                    out.print("inside 2nd if");
+//                    out.print("inside 2nd if");
                 }
             }
         }else{
