@@ -24,7 +24,7 @@ public class dologin extends HttpServlet {
             session.setAttribute("user", new LoginSession(req.getParameter("email"),true));
 
             out.print("Login Successfully \n");
-            out.print(((LoginSession) session.getAttribute("user")).email);
+            String signedInUserEmail = ((LoginSession) session.getAttribute("user")).email;
 //            Enumeration<String> sessionAttriubtes = session.getAttributeNames();
 //            String name;
 //            Object value;

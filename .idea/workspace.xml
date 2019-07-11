@@ -7,18 +7,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9627f140-1689-492c-ae42-a9085231ebc5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Users.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/login_war_exploded/WEB-INF/classes/dologin.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/login_war_exploded/WEB-INF/classes/dologin.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/login_war_exploded/WEB-INF/classes/login.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/login_war_exploded/WEB-INF/classes/login.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/login_war_exploded/WEB-INF/classes/loginSession.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/login_war_exploded/WEB-INF/classes/loginSession.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/dologin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dologin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/login.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/loginSession.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LoginSession.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dologin.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dologin.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/login.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/login.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/loginSession.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/loginSession.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -51,7 +43,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1Npw5fSdRHYlID5wDyFQbpQS0YD" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -241,7 +235,7 @@
       <workItem from="1562791166398" duration="681000" />
       <workItem from="1562792152028" duration="6186000" />
       <workItem from="1562842452632" duration="3678000" />
-      <workItem from="1562872374263" duration="2229000" />
+      <workItem from="1562872374263" duration="2701000" />
     </task>
     <servers />
   </component>
