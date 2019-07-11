@@ -11,7 +11,6 @@ import java.util.Enumeration;
 public class dologin extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-//        super.doGet(req, resp);
     }
 
     // add a button to invalidate the session (i.e log out)
@@ -20,20 +19,20 @@ public class dologin extends HttpServlet {
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         ServletContext sc = this.getServletContext();
         PrintWriter out = resp.getWriter();
-        String password = req.getParameter("password");
         HttpSession session = req.getSession();
-        String email = req.getParameter("email");
-        if(email.equals("me@islam") && password.equals("pass")){
-            session.setAttribute("name", "LoggedIn");
+        if(req.getParameter("email").equals("me@islam") && req.getParameter("password").equals("pass")){
+            session.setAttribute("user", new LoginSession(req.getParameter("email"),true));
+
             out.print("Login Successfully \n");
-            Enumeration<String> sessionAttriubtes = session.getAttributeNames();
-            String name;
-            Object value;
-            while(sessionAttriubtes.hasMoreElements()){
-                name = sessionAttriubtes.nextElement();
-                value = session.getAttribute(name);
-                out.print("NAME "+name+" value "+value);
-            }
+            out.print(((LoginSession) session.getAttribute("user")).email);
+//            Enumeration<String> sessionAttriubtes = session.getAttributeNames();
+//            String name;
+//            Object value;
+//            while(sessionAttriubtes.hasMoreElements()){
+//                name = sessionAttriubtes.nextElement();
+//                value = session.getAttribute(name);
+//                out.print("NAME "+name+" value "+value);
+//            }
         }else{
             out.print("<html><head><title>Login</title></head><body>");
             out.print("<p style=\"color: red\">Login Failed </p>");//using: "+email+" and pass "+password+"

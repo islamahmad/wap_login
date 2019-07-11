@@ -1,13 +1,13 @@
-public class loginSession {
+public class LoginSession {
     String email;
     boolean isLogedIn = false;
 
-    public loginSession() {
+    public LoginSession() {
         this.email = "default";
         isLogedIn = true;
     }
 
-    public loginSession(String email, boolean isLogedIn) {
+    public LoginSession(String email, boolean isLogedIn) {
         this.email = email;
         this.isLogedIn = isLogedIn;
     }
@@ -16,7 +16,7 @@ public class loginSession {
     public String toString() {
         return "loginSession{" +
                 "email='" + email + '\'' +
-                ", isLogedIn=" + isLogedIn +
+                ", isLogedIn? " + isLogedIn +
                 '}';
     }
 }
